@@ -51,9 +51,10 @@ body{
         color:#27459F;     
 }
  .card{
+    position: relative;
+    left: 112px;
     align-items: center;
     display: flex;
-    margin-right: 100px;
 
 }
 .card_1{
@@ -91,21 +92,22 @@ body{
     margin-left: 20px;
 }
 .header .navBar{
+    position: relative;
+    left: 148px;
    font-size: 20px;
    font-weight: 200;
    font-family: 'poppins', sans-serif;
-   margin-left: -30px;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
 }
 
 .header .navBar a{
     color: #980b95;
-    opacity: 81%;
     padding: 0 10px;
+    opacity: 81%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 30px;
 }
 .header .navBar a:hover{
     color:rgb(29, 29, 144);
@@ -390,13 +392,21 @@ form .button input:hover{
 }
 .footer_1 .copyrigth{
     background: black;
+    
    width: 100%;
    height: 53px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
 .footer_1 .copyrigth p{
+    position: relative;
+    text-align: center;
     color: white;
     letter-spacing: 1px;
     top: 20px;
+    right: 20px;
 }
 .footer_1 .copyrigth p span{
 
